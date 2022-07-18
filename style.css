@@ -1,0 +1,21 @@
+#header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img.center{
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
