@@ -1,33 +1,105 @@
 * {
-    background-color: beige;
+    font-family:'Ubuntu', sans-serif;
 }
 
-#header {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 32px;
+.header_container {
+    display: flex;
+    background-color: #152238;
+}
+
+.header_container p {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 35px;
+}
+
+.header_container h1 {
+    flex: 0 0 auto;
+    padding: 25px;
+    font-size: 45px;
+    color: #FFCC00;
+    margin: auto;
+}
+
+
+.recipes_container {
+    display: flex;
+}
+
+.recipes_container img {
+    position: relative;
+    flex: 0 0 auto;
+    padding: 5px;
+    height: 500px;
+    width: 465px;
+}
+
+.recipes_container img:hover {
+    opacity: 0.1;
+}
+
+.recipes_container p {
+    position: absolute;
+    font-size: 30px;
     text-align: center;
+    justify-content: center;
+    padding: 100px;
 }
 
-body p{
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
+.image_text_container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    height: 400px;
+    margin-top: 10px;
+    border: 3px solid black;
 }
 
-body h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-}
-
-.center {
+.sandwich_text {
+    font-size: 20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    flex-direction: column;
+    padding: 55px;
+    border-left: 3px solid black;
 }
 
+.ingredients_steps_container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 3px solid black;
+}
 
-img.center{
-    width: 200px;
-    height: auto;
+.ingredients {
+    font-size: 18px;
+    flex-direction: column;
+    padding-top: 55px;
+    padding-right: 75px;
+    padding-bottom: 55px;
+    padding-left: 75px;
+    border-right: 3px solid black;
+}
+
+.steps {
+    font-size: 18px;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-right: 55px;
+    padding-bottom: 35px;
+    padding-left: 55px;
+}
+
+.footer {
+    display: flex;
+    background-color: #152238;
+}
+
+.footer p {
     text-align: center;
+    margin-left: 675px;
+    justify-content: center;
+    color: #fff;
 }
